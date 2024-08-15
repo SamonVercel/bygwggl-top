@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      株式市場の予測は 99% の精度で更新され 何億もの投資家が人工知能を使用して
+      99% の精度で株式を分析し始めています
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="md:max-w-[1220px] w-full m-auto">
+      <div>
+        <img class="w-full" src="Image/image-1.jpg" alt="" />
+      </div>
+      <div class="max-w-[1000px] m-auto px-2">
+        <a href=""><img class="w-full" src="Image/button-1.webp" alt="" /></a>
+      </div>
+      <div>
+        <img class="w-full" src="Image/image-2.jfif" alt="" />
+      </div>
+      <div>
+        <img class="w-full" src="Image/image-3.jfif" alt="" />
+      </div>
+      <div>
+        <img class="w-full" src="Image/image-4.jfif" alt="" />
+      </div>
+    </main>
+    <section
+      class="w-full fixed bottom-4 px-4 transition-all duration-500 opacity-0"
+      id="btn-bottom"
+    >
+      <div
+        class="bg-orange-400 max-w-[1220px] m-auto bg-opacity-70 rounded-2xl md:p-4 p-2 border-[3px] border-white"
+      >
+        <img class="min-w-full btn-animation" src="Image/button-2.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Script  -->
+    <script>
+      window.onscroll = () => {
+        if (scrollY >= 90) {
+          document.getElementById("btn-bottom").style.opacity = "100%";
+        } else {
+          document.getElementById("btn-bottom").style.opacity = "0";
+        }
+      };
+    </script>
+  </body>
+</html>
